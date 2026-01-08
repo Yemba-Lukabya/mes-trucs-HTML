@@ -1,0 +1,19 @@
+p{
+    font-size:1.3em;
+    font-family:'Times New Roman', Times, serif;
+    color:#AF1214;
+    font-style:oblique;
+    font-weight:normal;
+}
+.you{
+    font-size:smaller;
+    float:left;
+    
+}
+.titre{
+    color:rgb(0,128,64);
+    text-align:center;
+}
+body{
+    background-color: rgb(12,45,90);
+}

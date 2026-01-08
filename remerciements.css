@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+    font-size:1.3em;
+}
+.b{
+    border: 3px blueviolet solid;
+    border-radius:3px;
+    font-style:italic;
+    text-align:center;
+    box-shadow: 3px 3px 3px black;
+    color:brown;
+}
+.b:hover{
+    background-color: blue;
+}
+.a{
+    border: 3px green solid ;
+    font-style: oblique;
+    box-shadow: 5px 5px 5px burlywood;
+    border-radius: 10px;
+}
+.c{
+ font-style: oblique;
+ text-align: right;   
+}
+.y{
+  font-style: oblique; 
+  text-align: left; font-size: 1.3em;
+  font-style: oblique;
+}
+.m:hover{
+    background-color:red;
+}

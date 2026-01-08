@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+    font-size: 1.3em;
+}
+.f,.d,.b{
+    border: 4px black solid;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px green;
+    text-align: center;
+    font-size: 2em;
+    font-family: italic;
+    background-color: white;
+}
+.a,.c,.e{
+    background-color: blueviolet;
+}

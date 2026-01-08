@@ -1,0 +1,32 @@
+body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+            background-color: aquamarine;
+        }
+        .photo {
+            width: 300px;
+            height: 380px;
+            border: 1px solid black;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .int{
+            border:3px black solid;
+            background-color: white;
+            box-shadow: 3px 3px 3px greenyellow;
+            text-align: center;
+            font-style: italic;
+            border-radius: 20px;
+        }
+        .float{
+            border:3px red solid;
+            border-radius:40px ;
+            box-shadow: 3px 3px 3px greenyellow;
+            font-style: oblique;
+            background-color: bisque;
+        }

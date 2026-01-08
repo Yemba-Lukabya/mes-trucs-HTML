@@ -1,0 +1,163 @@
+/* =========================
+   STYLE GLOBAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.7;
+    padding: 40px 15px;
+    background-color: gray;
+}
+
+/* =========================
+   CONTENEUR PRINCIPAL
+========================= */
+
+body > * {
+    max-width: 900px;
+    margin: auto;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ddd;
+    margin: 30px 0;
+}
+
+/* =========================
+   TITRES
+========================= */
+
+h1 {
+    text-align: center;
+    font-size: 2.6em;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #2563eb;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 6px;
+    width: 6px;
+    height: 70%;
+    background-color: #2563eb;
+    border-radius: 3px;
+}
+
+/* =========================
+   PARAGRAPHES
+========================= */
+
+p {
+    font-size: 1.05em;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* =========================
+   LISTES
+========================= */
+
+ul, ol {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+    font-size: 1.02em;
+}
+
+/* =========================
+   BLOCS DE CONTENU
+========================= */
+
+section {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* =========================
+   TEXTE IMPORTANT
+========================= */
+
+strong {
+    color: #1e40af;
+}
+
+/* =========================
+   PIED DE PAGE
+========================= */
+
+footer, 
+p:last-child {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* =========================
+   LIENS (si ajoutés plus tard)
+========================= */
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   RESPONSIVE (MOBILE)
+========================= */
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+.y{
+  font-style: oblique; 
+  text-align: left; font-size: 1.3em;
+  font-style: oblique;
+}
+.m:hover{
+    background-color:red;
+}

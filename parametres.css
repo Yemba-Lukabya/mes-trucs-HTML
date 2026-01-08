@@ -1,0 +1,11 @@
+body{
+    background-color: bisque;
+    font-style: italic;
+    font-size: 1.3em;
+    border: 3px black solid;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px green;
+}
+t{
+    text-align: center;
+}
